@@ -37,11 +37,6 @@ public class JavaDatabase {
 
 			System.out.println(rsCount + " rows affected");
 			count++;
-			// while(rs.next()) {
-			//// rs.next();x
-			// String name1 = rs.getString(2)+" "+rs.getInt(1);
-			// System.out.println(name1);
-			// }
 
 			System.out.println("if you want to insert more data (Y/N) :");
 			YRN = sc.next();
